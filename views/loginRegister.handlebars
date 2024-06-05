@@ -1,0 +1,48 @@
+{{! Use the main layout }}
+{{!< main }}
+
+<section class="login-register">
+    <section class = "login-area">
+        <h2>Login</h2>
+        <!-- errors will appear here -->
+        {{#if loginError}}
+            <p style="color: red;">{{loginError}}</p>
+        {{/if}}
+        <form id="login-form "action="/login" method="POST">
+            <!-- the login form goes here -->
+            <input type="text" name="username" placeholder="Enter Your Username">
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- say --OR-- ... with style -->
+
+    <section class = "register-area">
+        <h2>Register</h2>
+        <!-- errors will appear here -->
+        {{#if regError}}
+            <p style="color: red;">{{regError}}</p>
+        {{/if}}
+        <form id="register-form" action="/register" method="POST">
+            <!-- the registration form goes here -->
+            <input type="text" name="username" placeholder="Register A Username">
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- say --OR-- ... with style -->
+
+    <section class = "guest-area">
+        <h2>Guest Account</h2>
+        <!-- errors will appear here -->
+        {{#if regError}}
+            <p style="color: red;">{{regError}}</p>
+        {{/if}}
+        <form id="register-form" action="/guest" method="POST">
+            <!-- the guest form goes here -->
+            <button id="generate">Create Guest</button>
+        </form>
+    </section>
+
+    <script src="server.js"></script>
+</section>

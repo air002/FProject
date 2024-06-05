@@ -1,0 +1,142 @@
+html{
+    background-color: rgba(213, 219, 217, 0.575);
+}
+
+.header-logo{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.logo{
+    border-radius: 20px;
+    box-sizing: 20px;
+    box-shadow: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-register{
+    display: flex;
+}
+
+.login-area{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    margin: 50px auto;
+    border-style: groove;
+    border-color: goldenrod;
+    flex-direction: column;
+}
+
+.register-area{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    margin: 50px auto;
+    border-style: groove;
+    border-color: goldenrod;
+    flex-direction: column;
+}
+
+.guest-area{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    margin: 50px auto;
+    border-style: groove;
+    border-color: goldenrod;
+    flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    margin: 100;
+    clear: both;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.post{
+    background: white;
+    width: 400px;
+    padding: 35px;
+    margin: 50px auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: groove;
+    border-color: goldenrod;
+    border-radius: 10px;
+}
+
+
+.content-container{
+    width: 100%;
+}
+
+.post-form{
+    background: white;
+    width: 400px;
+    padding: 35px;
+    margin: 50px auto;
+    text-align: center;
+    border-width: 10px;
+    border-style: groove;
+    border-color: goldenrod;
+    border-radius: 10px;
+}
+
+.top-bar{
+    width: 95%;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-buttons{
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.baux{
+    width: 300px;
+    height: 150px;
+}
